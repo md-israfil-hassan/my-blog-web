@@ -25,9 +25,9 @@ text-decoration: none;
 /* header retated style */
 header{
   background-color: #FFF8F3;
-background-image: url('image/download.png');
+background-image: url('image/header_bg.png'), url('image/developer.png');
 background-repeat: no-repeat;
-background-position:bottom right ;
+background-position:bottom right , top left;
 }
 
 .btn-preimary{
@@ -102,7 +102,7 @@ border-radius: 10px;
 background:#FFF8F3;
 
 }
-.section-titel{
+.section-title{
 color: #181818;
 text-align: center;
 font-size:35px;
@@ -200,4 +200,31 @@ font-weight: 700;
 margin-top: 50px;
 text-align: center;
 
+}
+/* footer section style */
+
+footer{
+display: flex;
+gap: 100px;
+background: #FFF8F3;
+padding: 130px 200px ;
+margin-top: 100px;
+
+}
+
+.footer-column{
+
+  width: 50%;
+}
+.contact input[ type=text], .contact input[ type=email], 
+ textarea{
+width: 100%;
+display: block;
+margin-bottom:20px ;
+padding: 18px 35px ;
+font-size:15px;
+color: #757575;
+border-radius: 5px;
+background: white ;
+border: 0;
 }
