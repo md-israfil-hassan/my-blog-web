@@ -25,14 +25,10 @@ text-decoration: none;
 /* header retated style */
 header{
   background-color: #FFF8F3;
-background-image: url('download.png');
+background-image: url('image/download.png');
 background-repeat: no-repeat;
 background-position:bottom right ;
 }
-
-
-
-
 
 .btn-preimary{
 padding:15px 30px ;
@@ -75,8 +71,6 @@ justify-content: space-between;
 }
 .bennar-disciption{
 
-
-
 }
 .bennar .profile-pic{
 width: 500px;
@@ -98,7 +92,6 @@ margin-bottom:20px;
 .bennar-disciption{
 
 
-
 }
 /* about section */
 
@@ -107,7 +100,6 @@ margin: 130px  ;
 padding: 130px;
 border-radius: 10px;
 background:#FFF8F3;
-
 
 }
 .section-titel{
@@ -146,3 +138,45 @@ text-align:center;
 padding: 30px 150px;
 
 }
+h1{
+text-align: center;
+font-size: 40px;
+}
+
+/* skill related */
+
+.skills-container{
+display: flex;
+gap: 35px;
+}
+
+.skill-description{
+
+  color:#757573;
+  }
+.skill{
+border-radius: 5px;
+background: #fff;
+padding: 30px;
+box-shadow:0px 5px 10px 0px #757573;
+
+}
+main section{
+margin-top: 130px;
+
+}
+
+/* resume section style */
+
+.resume-column-title{
+
+color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+
+/* .resume-container{ */
+
+  display: flex;
+}
+
