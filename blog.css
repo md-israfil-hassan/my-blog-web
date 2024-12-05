@@ -69,9 +69,7 @@ justify-content: space-between;
   max-width: 500px;
 
 }
-.bennar-disciption{
 
-}
 .bennar .profile-pic{
 width: 500px;
 
@@ -80,7 +78,7 @@ width: 500px;
 .banner-greeting{
 font-size: 45px;
 color: #474747;
-margin-bottom: 5px;
+margin-bottom:5px;
 }
 .banner-titel{
 
@@ -89,13 +87,11 @@ font-weight: 700;
 margin-bottom:20px;
 
 }
-.bennar-disciption{
 
-
-}
 /* about section */
 
 .about{
+text-align: center;
 margin: 130px  ;
 padding: 130px;
 border-radius: 10px;
@@ -105,7 +101,8 @@ background:#FFF8F3;
 .section-title{
 color: #181818;
 text-align: center;
-font-size:35px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:40px;
 font-weight: 700;
 
 }
@@ -178,6 +175,7 @@ font-weight: 700;
 .resume-container{
 
   display: flex;
+  gap: 50px;
 }
 .resume-item-institute, .resume-item-description{
 
@@ -227,4 +225,99 @@ color: #757575;
 border-radius: 5px;
 background: white ;
 border: 0;
+}
+
+/* Responsive Style */
+/* Mobile Devices */
+
+.hide{
+display: none;
+
+}
+
+
+@media screen and (max-width:576px) {
+
+
+  .bennar .profile-pic{
+    width: 100%;
+    
+    }
+    .btn-preimary{
+      font-size: 15px;
+      }
+
+
+  .skills-container, .resume-container, footer, nav, .bennar
+  {
+   flex-direction: column;
+
+    }
+#what-ido-description{
+padding: 0px;
+}
+
+footer{
+padding: 30px;
+}
+
+.about , .bennar{
+  margin: 0px;
+padding: 0px;
+}
+
+
+.about-info-container{
+  display: flex;
+  flex-direction: column;
+  
+  }
+
+.footer-column{
+
+  width: 100%;
+}
+
+.contact input[ type=text], .contact input[ type=email], 
+ textarea{
+
+width: 70%;
+
+ }
+
+
+
+}
+
+
+@media screen and (min-width:576px) and (max-width:960px) {
+
+
+
+
+  .about , .bennar{
+    margin: 0px;
+  padding: 0px;
+  }
+  
+  .skills-container, .resume-container, .bennar
+  {
+    flex-direction: column;
+
+    }
+
+    #what-ido-description{
+
+      padding: 0px;
+      
+      }
+
+      .bennar .profile-pic{
+        width: 60%;
+        
+        }
+header{
+  background-position:bottom right , top left;
+}
+  
 }
